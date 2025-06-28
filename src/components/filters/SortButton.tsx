@@ -1,3 +1,4 @@
+import React from "react";
 import type { SortButtonProps } from "@/types/CountriesType";
 import { ArrowDown, ArrowUp, ArrowUpDown } from "lucide-react";
 
@@ -8,7 +9,7 @@ export const SortButton: React.FC<SortButtonProps> = ({
   onSort,
   children,
 }) => {
-  const getSortIcon = (): JSX.Element => {
+  const getSortIcon = (): React.ReactElement => {
     if (currentSortBy !== field) return <ArrowUpDown className="w-4 h-4" />;
     return sortOrder === "asc" ? (
       <ArrowUp className="w-4 h-4" />
