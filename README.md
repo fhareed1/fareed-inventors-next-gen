@@ -168,4 +168,4 @@ Your Name - folorunshofareed0@gmail.com
 
 Project Link: [https://github.com/fhareed1/fareed-inventors-next-gen]
 
-Live Demo: [Add your deployment URL here]
+Live Demo: [https://fareed-inventors-next-gen.vercel.app/]
